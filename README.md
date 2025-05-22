@@ -21,11 +21,11 @@ Ce projet développe un Proof of Concept (POC) pour la détection automatisée d
 ## 📊 Dataset
 Source : Chest X-Ray Images (Pneumonia) - Kaggle
 
-- Total d'images : ~5,863 images
+- Total d'images : ~5,856 images
 - Classes :
 
-- Normal : ~1,583 images
-- Pneumonie : ~4,280 images
+- Normal : ~1,559 images
+- Pneumonie : ~4,277 images
 
 
 - Format : Images JPEG en niveaux de gris
