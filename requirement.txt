@@ -1,4 +1,11 @@
 numpy
 matplotlib
 tensorflow
+joblib
 opencv-python
+tqdm
+seaborn
+scikit-learn
+pandas
+scipy
+MLflow
