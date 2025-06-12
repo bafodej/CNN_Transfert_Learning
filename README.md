@@ -1,32 +1,63 @@
-# Détection de Pneumonie par Transfer Learning 🫁
-## 📋 Description du Projet
-Ce projet développe un Proof of Concept (POC) pour la détection automatisée de pneumonie à partir de radiographies thoraciques, en utilisant les techniques de Transfer Learning avec des modèles de vision par ordinateur pré-entraînés.
+# 📸 Pneumonia Detection via Transfer Learning (CNN)
 
-## Contexte Médical
+Ce projet propose un **prototype fonctionnel** (Proof of Concept) d'un système de classification binaire de radiographies thoraciques visant à détecter des cas de **pneumonie**, en utilisant le **transfert learning** appliqué à un modèle pré-entraîné de vision par ordinateur (CNN).
 
-- Problématique : Aide au diagnostic médical pour détecter la pneumonie sur des radiographies thoraciques
-- Enjeu : Réduire le temps de diagnostic et améliorer la précision du dépistage
-- Approche : Classification binaire (Normal vs Pneumonie) avec CNN pré-entraîné
-- Perspective : Initiation à une démarche MLOps pour la traçabilité des expérimentations
+## 🧠 Objectifs
 
-  ## 🎯 Objectifs du Projet
+- Réutiliser un **modèle CNN pré-entraîné** pour classifier les radios thoraciques (saines vs. atteintes de pneumonie).
+- Comprendre et mettre en œuvre le **transfert learning** dans un contexte médical réel.
+- Initier une démarche **MLOps** via l'outil **MLflow** pour assurer la traçabilité des expérimentations.
+- Fournir un **notebook complet, lisible et structuré**, documentant l'ensemble du processus.
 
- - Explorer et analyser le dataset Chest X-Ray Pneumonia
- - Implémenter un modèle de Transfer Learning (CNN pré-entraîné)
- - Adapter le modèle à la classification binaire médicale
- - Évaluer les performances avec des métriques adaptées au contexte médical
- - Tracer les expérimentations avec MLflow (initiation MLOps)
- - Documenter la démarche de manière claire et reproductible
+## 🗂 Contenu du projet
 
-## 📊 Dataset
-Source : Chest X-Ray Images (Pneumonia) - Kaggle
+Le projet est entièrement réalisé dans un **notebook Jupyter** disponible dans ce dépôt.
 
-- Total d'images : ~5,863 images
-- Classes :
+### Étapes couvertes :
 
-- Normal : ~1,583 images
-- Pneumonie : ~4,280 images
+- 📁 **Préparation et exploration du dataset** : *Chest X-Ray Pneumonia Dataset*
+- 🧩 **Chargement et adaptation d’un modèle pré-entraîné** (e.g., ResNet, DenseNet)
+- 🔁 **Entraînement du modèle** sur les données adaptées
+- 📊 **Évaluation rigoureuse** : matrice de confusion, courbes ROC/AUC, précision, rappel, F1-score...
+- 🧪 **Suivi d’expérimentations avec MLflow** : paramètres, métriques, version des modèles
+
+## 📦 Dataset
+
+- **Nom** : Chest X-Ray Pneumonia
+- **Source** : [Kaggle](https://www.kaggle.com/datasets/paultimothymooney/chest-xray-pneumonia)
+- **Format** : Images JPEG (réparties en train/test/val)
+- **Tâche** : Classification binaire — Pneumonia vs. Normal
+
+## 🛠 Technologies utilisées
+
+- Python 3
+- TensorFlow / Keras
+- scikit-learn
+- MLflow
+- Jupyter Notebook
+- Matplotlib / Seaborn
+
+## 🚀 MLOps & Suivi d’expérimentations
+
+Une première introduction à la culture **MLOps** est proposée via **MLflow** :
+- Suivi des hyperparamètres et métriques
+- Versioning de modèles
+- Visualisation des performances
+
+## 🧪 Reproductibilité
+
+Le projet est structuré pour être facilement reproductible :
+- Code clair et commenté
+- Instructions intégrées dans le notebook
+- Utilisation de chemins relatifs et bonnes pratiques
+
+## ✅ Résultats attendus
+
+> L’objectif n’est pas d’atteindre une performance optimale, mais de **démontrer une démarche claire et rigoureuse** :
+- Compréhension du transfert learning
+- Adaptation correcte du modèle à la classification binaire
+- Expérimentations tracées et évaluées
+- Interprétation des résultats
 
 
-- Format : Images JPEG en niveaux de gris
-- Splits : Train / Validation / Test pré-définis
+
