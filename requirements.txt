@@ -1,0 +1,27 @@
+# Data Science
+numpy
+pandas
+
+# Machine Learning
+scikit-learn
+
+# Visualization
+matplotlib
+seaborn
+
+# Deep Learning
+tensorflow
+
+# Image Processing
+opencv-python  
+Pillow
+
+# MLOps
+mlflow
+
+# Jupyter 
+jupyter
+notebook
+
+# Utilities 
+tqdm
