@@ -58,3 +58,6 @@ Thumbs.db
 
 # Logs
 *.log
+
+# Cheatsheet (fichier de référence personnel)
+Transfer_Learning_Cheatsheet.ipynb
